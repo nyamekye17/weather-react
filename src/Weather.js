@@ -48,6 +48,8 @@ export default function SearchEngine() {
             );
           })}
         </ul>
+        <div className="row">
+        <div className="col">
         <ul className="tempDetails">
           {details.map(function (detail, index) {
             return (
@@ -57,6 +59,8 @@ export default function SearchEngine() {
             );
           })}
         </ul>
+        </div>
+        <div className="col">
         <ul className="temperature">
           {details.map(function (detail, index) {
             return (
@@ -66,6 +70,8 @@ export default function SearchEngine() {
             );
           })}
         </ul>
+        </div>
+        </div>
       </div>
     );
   }
